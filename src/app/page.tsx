@@ -9,7 +9,7 @@ export default function Home() {
   }
   return (
     <div className="home">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-full">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-[calc(100vh - 160px)]">
         <div className="bg-primary flex items-center justify-center md:justify-end h-full p-6 md:p-0">
           <ProfileCard  className="md:-mx-12"/>
         </div>
@@ -24,12 +24,12 @@ export default function Home() {
             >
               Resume
             </button>
-            <button 
+            {/* <button 
               className="w-32 bg-transparent border-2 border-black hover:bg-blue hover:border-blue hover:text-white text-gray-800 px-4 py-1 rounded-2xl"
               onClick={() => handleRedirect('projects')}
             >
               Projects
-            </button>
+            </button> */}
           </div>
           <p className="mt-6 text-gray max-w-md">I’m a Senior Software Engineer with 5+ years in scalable web app development, 
             specializing in React.js, Node.js, and AWS. At Softura, I led projects like Vault Admin Portal, 
