@@ -9,7 +9,7 @@ export default function Home() {
   }
   return (
     <div className="home">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 h-[calc(100vh - 160px)]">
+      <div className="home-section grid grid-cols-1 md:grid-cols-2 gap-4">
         <div className="bg-primary flex items-center justify-center md:justify-end h-full p-6 md:p-0">
           <ProfileCard  className="md:-mx-12"/>
         </div>

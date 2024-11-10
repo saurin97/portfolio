@@ -33,3 +33,7 @@ body {
 .home {
   min-height: calc(100vh - 160px);
 }
+
+.home-section {
+  min-height: calc(100vh - 160px);
+}
