@@ -1,4 +1,13 @@
+"use client"; // Add this line to make the component a Client Component
 const Resume = () => {
+
+    const handleDownload = (e:React.MouseEvent<HTMLButtonElement>) => {
+        e.preventDefault();
+        const link = document.createElement('a');
+        link.href = '/Saurin_Patel_CV.pdf';
+        link.download = 'Saurin_Patel_CV.pdf';
+        link.click();
+    };
     return (
         <div className="home bg-primary">
             <div className="max-w-[724px] mx-auto px-6 md:px-0">
@@ -8,7 +17,10 @@ const Resume = () => {
                 </div>
                 <div className="flex justify-between mt-4 w-full">
                     <h2 className="text-3xl font-bold">Experience</h2>
-                    <button className="bg-blue border-2 border-blue hover:bg-transparent hover:text-black text-white px-4 py-1 rounded-2xl">
+                    <button 
+                        className="bg-blue border-2 border-blue hover:bg-transparent hover:text-black text-white px-4 py-1 rounded-2xl"
+                        onClick={handleDownload}
+                    >
                         Download CV
                     </button>
                 </div>
@@ -53,9 +65,9 @@ const Resume = () => {
                             and Node and managed client requirements using Redux.</p>
                         </div>
                     </div>
-                    <div className="p-6 mb-6 bg-white shadow-lg rounded-lg flex">
+                    {/* <div className="p-6 mb-6 bg-white shadow-lg rounded-lg flex">
                         
-                    </div>
+                    </div> */}
                 </div>
                 </section>
             </div>
