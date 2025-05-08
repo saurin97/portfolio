@@ -24,12 +24,6 @@ export default function Home() {
             >
               Resume
             </button>
-            {/* <button 
-              className="w-32 bg-transparent border-2 border-black hover:bg-blue hover:border-blue hover:text-white text-gray-800 px-4 py-1 rounded-2xl"
-              onClick={() => handleRedirect('projects')}
-            >
-              Projects
-            </button> */}
           </div>
           <p className="mt-6 text-gray max-w-md">I’m a Senior Software Engineer with 5+ years in scalable web app development, 
             specializing in React.js, Node.js, and AWS. At Softura, I led projects like Vault Admin Portal, 

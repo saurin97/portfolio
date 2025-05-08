@@ -1,6 +1,6 @@
 
 import Image from 'next/image';
-import profile from '../../../public/profile.png';
+import profile from '../../../public/profile_1.jpeg';
 
 interface IProps {
   className?: string

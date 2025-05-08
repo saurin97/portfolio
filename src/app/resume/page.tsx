@@ -65,9 +65,6 @@ const Resume = () => {
                             and Node and managed client requirements using Redux.</p>
                         </div>
                     </div>
-                    {/* <div className="p-6 mb-6 bg-white shadow-lg rounded-lg flex">
-                        
-                    </div> */}
                 </div>
                 </section>
             </div>
